@@ -64,6 +64,10 @@ functions:
           path: todos
           cors: true
           auth: Auth
+          request:
+            # Schema that will be used to validate incoming requests
+            schema:
+              application/json: ${file(models/create-todo.json)}
     iamRoleStatements:
       - Effect: Allow
         Action:
@@ -92,6 +96,10 @@ functions:
           path: todos/{todoId}
           cors: true
           auth: Auth
+          request:
+            # Schema that will be used to validate incoming requests
+            schema:
+              application/json: ${file(models/update-todo.json)}
     iamRoleStatements:
       - Effect: Allow
         Action:
