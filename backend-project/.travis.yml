@@ -13,5 +13,4 @@ script:
 
 branches:
   only:
-    - production
-    
+    - main
