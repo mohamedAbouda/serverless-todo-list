@@ -7,6 +7,7 @@ node_js:
   - 7
 
 before_script:
+  - cd backend-project
   -npm install
 
 script:
