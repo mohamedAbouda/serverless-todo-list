@@ -10,3 +10,5 @@ this is a simple to-do project , the user can login and create to-do items , upd
 	- npm run start 	
 
 This project has CI-CD implemntation with travis ci , you will find a screenshot for a successful deployment here.
+all the keys needed for the project are in the project  client-project/src/config.ts
+so all you need to run the client-project as descriped before
